@@ -10,6 +10,24 @@ body {
   font-family: Helvetica;
   margin: 0;
   padding: 0;
-  background:linear-gradient(180deg, rgba(9, 35, 175,1) 0%, rgb(119, 116, 116) 100%);
+  background:linear-gradient(180deg, rgba(9, 35, 175,1) 0%, rgb(32, 31, 31) 100%);
   color: #fff;
+}
+
+button {
+  background: #1646a0;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  padding: 0 45px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em;
+  cursor: pointer ;
+  transition: .4s;
+}
+
+button:hover {
+  background-color: #0923af;
 }
